@@ -1,0 +1,28 @@
+.container {
+  width: 150px;
+  height: 200px;
+  background-color: rgb(60, 110, 60);
+  color: white;
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    background-color: rgb(104, 104, 199);
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 140px;
+  }
+
+  .footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+  }
+}
